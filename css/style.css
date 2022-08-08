@@ -59,8 +59,6 @@ header {
     display: flex;
     flex-direction: row;
     position: relative;
-    max-width: 1600px;
-    min-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -68,7 +66,6 @@ header {
 header img {
     max-width: 1600px;
     min-width: 300px;;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     animation-name: fade;
@@ -97,6 +94,18 @@ header img {
     .hd__title {
         font-size: 24px;
         padding: 12px 12px;
+    }
+}
+
+@media (max-width: 500px) and (max-width:599px) {
+    header {
+        position: relative;
+        bottom: -20px;
+    }
+    header .hd__title {
+        font-size: 24px;
+        margin: 5px;
+        padding: 8px 8px;
     }
 }
 
@@ -177,6 +186,8 @@ header img {
     .about {
         flex-direction: column;
         align-items: center;
+        padding-top: 64px;
+        padding-bottom: 0px;
     }
     .abt__img {
         max-width: 100%;
@@ -258,6 +269,7 @@ hr {
     .menu {
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
     .mn__img {
         max-width: 100%;
@@ -326,6 +338,12 @@ hr {
     margin-left: 0;
     margin-right: auto;
     font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .contact {
+        padding-top: 0;
+    }
 }
 
 /* FOOTER */
