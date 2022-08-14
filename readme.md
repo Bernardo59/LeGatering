@@ -11,4 +11,4 @@ https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm
 
 ## Capture:
 
-![TheCatering](https://github.com/Bernardo59/Website_Catering/blob/master/assets/img/thecatering.png?raw=true) 
+![TheCatering](https://github.com/Bernardo59/TheCatering/blob/master/assets/img/thecatering.png?raw=true) 
